@@ -10,7 +10,7 @@
   /* padding: 2rem; */
   text-align: center;
   display: flex;
-  /* border: 1px solid green; */
+  border: 2px solid red;
 }
 
 .section--hero {
@@ -28,4 +28,14 @@
 
 .banner-image {
   display: block;
+}
+
+.section--banner {
+  /* border: 3px solid red; */
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(hsla(277, 64%, 61%, 0.698), hsla(277, 64%, 61%, 0.698)),
+    url('../src/assets/images/image-header-desktop.jpg');
+  background-repeat: no-repeat;
+  background-position: cover;
 }

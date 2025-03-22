@@ -26,9 +26,7 @@ function HeroContent() {
           </div>
         </div>
       </section>
-      <section className='section--banner'>
-        <img src='../src/assets/images/image-header-desktop.jpg' className='banner-image' alt='' />
-      </section>
+      <section className='section--banner'></section>
     </>
   );
 }
